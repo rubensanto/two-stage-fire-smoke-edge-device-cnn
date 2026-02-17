@@ -2,5 +2,5 @@
 
 ## Dataset
 
-- **Training Dataset & Video Dataset for Testing**: [Download from Google Drive]([YOUR_TRAINING_DATASET_LINK](https://drive.google.com/drive/folders/1u421L9LPUVPZ2AgxSgd_HPG0uSyjq0lG?usp=sharing))    
+- **Training Dataset & Video Dataset for Testing**: [Download from Google Drive](https://drive.google.com/drive/folders/1u421L9LPUVPZ2AgxSgd_HPG0uSyjq0lG?usp=sharing)    
 
