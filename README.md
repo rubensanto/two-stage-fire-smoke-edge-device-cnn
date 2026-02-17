@@ -1,1 +1,6 @@
-# two-stage-fire-smoke-edge-device-cnn
+# A Two-stage Fire and Smoke Detection System for Edge Devices Using Convolutional Neural Networks
+
+## Dataset
+
+- **Training Dataset & Video Dataset for Testing**: [Download from Google Drive]([YOUR_TRAINING_DATASET_LINK](https://drive.google.com/drive/folders/1u421L9LPUVPZ2AgxSgd_HPG0uSyjq0lG?usp=sharing))    
+
