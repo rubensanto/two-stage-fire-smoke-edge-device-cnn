@@ -12,10 +12,21 @@ single-model baselines (Light Only, Best Only) and with four video-based methods
 
 ## Data
 
-- **Training dataset and test videos**: [Google Drive](https://drive.google.com/drive/folders/1u421L9LPUVPZ2AgxSgd_HPG0uSyjq0lG?usp=sharing)
-  (place the videos in `data/videos/positive` and `data/videos/negative`, or set `SAFERFIRE_VIDEOS`).
-  The negative videos come from FIRESENSE, KMU, Pexels and YouTube; their origin is listed in
-  `data/negative_videos.csv`. Third-party videos remain subject to the terms of their original sources.
+- **Training dataset (FireSmokeDS)**: [Google Drive](https://drive.google.com/drive/folders/1u421L9LPUVPZ2AgxSgd_HPG0uSyjq0lG?usp=sharing).
+  The source videos of its Selfmade subset (frames extracted and annotated by the authors) are listed, with the
+  number of frames extracted from each one, in `data/selfmade_training_sources.csv`.
+- **Test videos (69 positive, 69 negative)**: the videos are third-party footage and are not redistributed; they are
+  given by reference in `data/video_sources_positive.csv` and `data/video_sources_negative.csv`:
+  - positive videos P13–P69: YouTube link, start and end time in the original video, crop box and resize to 640×640;
+  - positive videos P1–P12: link of the post or page where the footage was published (YouTube, LinkedIn, Reddit,
+    news website, NIST), with a description; the cut of these segments was not recorded;
+  - negative videos: FIRESENSE (Zenodo record 836749, CC BY 4.0, exact file in the archive), KMU Fire & Smoke
+    Database (exact file), Pexels (video id) and YouTube.
+
+  `python data/prepare_videos.py` downloads and rebuilds the YouTube, FIRESENSE and KMU videos (needs `ffmpeg` and
+  `yt-dlp`) and lists the others for manual download. Place the videos in `data/videos/positive` and
+  `data/videos/negative`, or set `SAFERFIRE_VIDEOS`. Re-encoded videos differ slightly from the originals, so the
+  results are reproduced only approximately. Third-party videos remain subject to the terms of their sources.
 - **Annotations**: `data/onset_frames/` gives the frame at which the fire or smoke becomes visible in each positive
   video (reference for the latency); see `data/README.md`.
 

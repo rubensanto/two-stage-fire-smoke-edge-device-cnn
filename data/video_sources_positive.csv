@@ -1,0 +1,70 @@
+id,file,source,url,start_s,end_s,original_width,original_height,crop_x,crop_y,crop_w,crop_h,output,fps,frames,onset_frame,notes
+P1,personal2.mp4,NIST,https://www.nist.gov/fire/holiday-fire-safety/why-you-should-water-your-christmas-tree,,,,,,,,,640x640,30.0,1849,2,NIST/HSE watered vs. dry Christmas tree footage (copy with added verse subtitles); no link recorded in the thesis; exact copy used not recorded
+P2,personal10.mp4,YouTube,https://www.youtube.com/watch?v=CtmxTj9pKqg,,,,,,,,,640x640,30.0,1231,77,aluminium extrusion plant; segment of the source footage; start time not recorded
+P3,personal11.mp4,YouTube,https://www.youtube.com/watch?v=ZjOUc7rKtPQ,,,,,,,,,640x640,30.0,759,1,"cat knocks over a candle; link from the thesis, video no longer available (checked 2026-10-28)"
+P4,personal12.mp4,LinkedIn,https://www.linkedin.com/posts/grunde-jomaas-43149a86_workplacesafety-kitchensafety-lpghandling-activity-7224716320330715137-b3I0,,,,,,,,,640x640,30.0,776,1,"restaurant kitchen, LPG cylinder; segment of the source footage; start time not recorded"
+P5,personal13.mp4,LinkedIn,https://www.linkedin.com/posts/grunde-jomaas-43149a86_battery-thermalrunaway-firesafety-activity-7215595399556829185-fGwb,,,,,,,,,640x640,29.967,909,23,"e-scooter shop, battery thermal runaway; segment of the source footage; start time not recorded"
+P6,personal17.mp4,YouTube,https://www.youtube.com/watch?v=PNJBtn8q7no,,,,,,,,,640x640,30.0,2142,660,"dog chewing a power bank, Tulsa (OK); no link recorded in the thesis; same footage published by several outlets (e.g. VOA News, Telegraph, Independent); exact copy used not recorded"
+P7,personal19.mp4,Reddit,https://www.reddit.com/r/WTF/comments/1f042em/fire_safety_fail/,,,,,,,,,640x640,30.0,1476,1,restaurant fryer fire; segment of the source footage; start time not recorded
+P8,personal20.mp4,News website,https://tabonito.com/carro-eletrico-pega-fogo-em-garagem-que-foi-inundada-pelo-furacao-helene/,,,,,,,,,640x640,18.0,819,46,electric car fire in a garage flooded by Hurricane Helene (Nest camera); segment of the source footage; start time not recorded
+P9,personal24.mp4,LinkedIn,https://www.linkedin.com/posts/grunde-jomaas-43149a86_riskmanagement-fire-suppression-activity-7262053274818674688-B2nQ,,,,,,,,,640x640,30.0,2338,60,motorcycle fire at a gas station; segment of the source footage; start time not recorded
+P10,personal29.mp4,LinkedIn,https://www.linkedin.com/posts/marcusscholle_%F0%9D%97%9C-%F0%9D%97%BA%F0%9D%97%B2%F0%9D%97%AE%F0%9D%97%BB-%F0%9D%97%B6%F0%9D%98%81-%F0%9D%98%80%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%BF%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%B1-%F0%9D%97%BE%F0%9D%98%82%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2-activity-7286637933967675392-EWo8,,,,,,,,,640x640,30.0,1725,158,"motorcycle shop, battery fire; segment of the source footage; start time not recorded"
+P11,personal30.mp4,LinkedIn,https://www.linkedin.com/posts/ruggiero-rino-lovreglio-75a61659_fire-safety-training-matters-to-have-an-effective-activity-7298230516615430144-u_ao,,,,,,,,,640x640,30.0,742,7,"child with a lighter, wardrobe fire; segment of the source footage; start time not recorded"
+P12,personal31.mp4,YouTube,https://www.youtube.com/watch?v=-k6dxXaLSqQ,,,,,,,,,640x640,30.0,1758,116,"pickup truck fire in a garage (Newsflare); no link recorded in the thesis, identified by web search; segment of the source footage; start time not recorded"
+P13,poss(1)-seg1.mp4,YouTube,https://www.youtube.com/watch?v=SmM1towHk78,79.276,266.379,720,480,0,0,720,480,640x640 letterbox,29.0,5415,26,
+P14,poss(1)-seg2.mp4,YouTube,https://www.youtube.com/watch?v=SmM1towHk78,329.172,580.862,720,480,0,0,720,480,640x640 letterbox,29.0,7287,35,
+P15,poss(2).mp4,YouTube,https://www.youtube.com/watch?v=dxaUj_rfkN4,46.113,110.11,640,480,0,0,640,480,640x640 letterbox,29.97,1908,0,
+P16,poss(3)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=ZM5zO3L76QU,8.709,392.525,1920,1080,60,312,844,686,640x640 letterbox,29.97,11502,441,
+P17,poss(3)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=ZM5zO3L76QU,8.709,392.525,1920,1080,946,318,838,682,640x640 letterbox,29.97,11502,1165,
+P18,poss(4).mp4,YouTube,https://www.youtube.com/watch?v=tSU4ibzLxQY,9.409,50.384,1920,1080,0,0,1920,1080,640x640 letterbox,29.97,1226,0,
+P19,poss(6).mp4,YouTube,https://www.youtube.com/watch?v=ZLHhG65fLeY,7.84,64.48,640,480,0,0,640,480,640x640 letterbox,25.0,1416,0,
+P20,poss(7)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=wNBTE71iQmU,0.0,54.8,1280,720,178,122,490,472,640x640 letterbox,30.0,1644,790,
+P21,poss(7)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=wNBTE71iQmU,0.0,54.8,1280,720,690,124,506,468,640x640 letterbox,30.0,1644,104,
+P22,poss(8).mp4,YouTube,https://www.youtube.com/watch?v=CajeCXGuIqQ,0.0,99.299,1920,1080,0,0,1920,1080,640x640 letterbox,29.97,2976,117,
+P23,poss(9)_crop.mp4,YouTube,https://www.youtube.com/watch?v=_lwso7FG2hc,0.0,120.733,320,240,46,132,228,100,640x640 letterbox,30.0,3621,144,
+P24,poss(11)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=3NJEz4PUYNk,0.0,240.107,640,480,2,0,312,236,640x640 letterbox,29.97,7196,34,
+P25,poss(11)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=3NJEz4PUYNk,0.0,240.107,640,480,324,0,310,236,640x640 letterbox,29.97,7196,1274,
+P26,poss(12)_crop.mp4,YouTube,https://www.youtube.com/watch?v=GjZeo9DC-t0,18.552,211.078,720,480,294,0,424,282,640x640 letterbox,29.97,5770,192,
+P27,poss(13).mp4,YouTube,https://www.youtube.com/watch?v=ZPdJ34vQtnM,60.0,237.24,640,480,0,0,640,480,640x640 letterbox,24.999,4430,139,
+P28,poss(14).mp4,YouTube,https://www.youtube.com/watch?v=SSAeWlcz1iY,0.0,50.551,640,480,0,0,640,480,640x640 letterbox,30.0,1517,0,
+P29,poss(15)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=YfqciXDBT7c,0.0,243.96,1280,720,642,0,636,360,640x640 letterbox,25.0,6099,61,
+P30,poss(15)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=YfqciXDBT7c,0.0,243.96,1280,720,642,362,636,356,640x640 letterbox,25.0,6099,63,
+P31,poss(15)_crop3.mp4,YouTube,https://www.youtube.com/watch?v=YfqciXDBT7c,0.0,243.96,1280,720,0,0,640,718,640x640 letterbox,25.0,6099,61,
+P32,poss(16)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=zkh4F-fvvi0,0.0,166.92,640,480,14,232,600,224,640x640 letterbox,25.0,4172,121,
+P33,poss(16)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=zkh4F-fvvi0,0.0,166.92,640,480,18,18,290,208,640x640 letterbox,25.0,4172,0,
+P34,poss(16)_crop3.mp4,YouTube,https://www.youtube.com/watch?v=zkh4F-fvvi0,0.0,166.92,640,480,376,8,234,172,640x640 letterbox,25.0,4172,0,
+P35,poss(17)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=zEKBwT2f0Zg,16.617,796.796,854,480,474,98,208,260,640x640 letterbox,29.97,23382,6518,
+P36,poss(18)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=507gj_JWWSs,0.0,479.233,1280,720,174,240,240,246,640x640 letterbox,30.0,14377,9509,
+P37,poss(18)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=507gj_JWWSs,0.0,479.233,1280,720,898,232,242,228,640x640 letterbox,30.0,14377,170,
+P38,poss(19)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=nltNXBSzFvc,132.766,293.86,640,480,4,12,308,462,640x640 letterbox,29.97,4825,0,
+P39,poss(19)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=nltNXBSzFvc,132.766,293.86,640,480,328,10,310,462,640x640 letterbox,29.97,4825,292,
+P40,poss(20)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=3arLA3kt84k,15.582,251.551,640,480,10,152,300,236,640x640 letterbox,29.97,7072,0,
+P41,poss(20)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=3arLA3kt84k,15.582,251.551,640,480,334,154,300,234,640x640 letterbox,29.97,7072,0,
+P42,poss(22).mp4,YouTube,https://www.youtube.com/watch?v=6AtzBIO4-z4,9.509,99.165,1920,1080,0,0,1920,1080,640x640 letterbox,29.97,2686,12,
+P43,poss(23)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=JWMiXSugdd4,0.0,35.502,1280,720,62,80,564,578,640x640 letterbox,29.97,1063,0,
+P44,poss(23)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=JWMiXSugdd4,0.0,35.502,1280,720,628,80,650,578,640x640 letterbox,29.97,1063,7,
+P45,poss(24).mp4,YouTube,https://www.youtube.com/watch?v=HgTKOk9TWXI,0.0,89.89,854,480,0,0,854,480,640x640 letterbox,29.97,2691,108,
+P46,poss(25).mp4,YouTube,https://www.youtube.com/watch?v=ZMtpdmHH08g,0.0,193.467,640,480,0,0,640,480,640x640 letterbox,30.0,5804,29,
+P47,poss(26)_crop.mp4,YouTube,https://www.youtube.com/watch?v=e1bXi2_iYcc,0.0,252.667,1920,1080,640,306,506,506,640x640 stretch,30.0,7579,1453,
+P48,poss(27).mp4,YouTube,https://www.youtube.com/watch?v=IxiOXZ55hbc,4.004,95.928,658,480,0,0,658,480,640x640 letterbox,29.97,2755,30,
+P49,poss(28).mp4,YouTube,https://www.youtube.com/watch?v=B2uJjGTIjAU,0.0,83.04,854,480,0,0,854,480,640x640 letterbox,25.0,2075,45,
+P50,poss(29)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=0pFB_N79DiM,61.428,131.198,1920,1080,1046,334,464,438,640x640 letterbox,29.97,2090,40,
+P51,poss(30)_crop.mp4,YouTube,https://www.youtube.com/watch?v=Q5y7YT_S474,53.353,236.103,1280,720,308,144,506,482,640x640 letterbox,29.917,5465,230,
+P52,poss(31)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=xWOa1per7Ws,209.109,461.428,1920,1080,314,370,582,420,640x640 letterbox,29.97,7562,904,
+P53,poss(31)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=xWOa1per7Ws,209.109,461.428,1920,1080,1012,364,586,430,640x640 letterbox,29.97,7562,508,
+P54,poss(32)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=qy1h-vbmd78,16.049,391.992,1280,720,122,146,434,430,640x640 letterbox,29.917,11247,158,
+P55,poss(32)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=qy1h-vbmd78,16.049,391.992,1280,720,744,148,428,426,640x640 letterbox,29.917,11247,206,
+P56,poss(33).mp4,YouTube,https://www.youtube.com/watch?v=qo3Os8ICQKU,0.0,111.945,1920,1080,0,0,1920,1080,640x640 letterbox,29.97,3355,6,
+P57,poss(34)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=87hAnxuh1g8,25.359,128.837,1920,1080,160,318,674,552,640x640 letterbox,23.976,2483,0,
+P58,poss(34)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=87hAnxuh1g8,25.359,128.837,1920,1080,1064,322,694,556,640x640 letterbox,23.976,2483,0,
+P59,poss(35).mp4,YouTube,https://www.youtube.com/watch?v=zcOg2ODdeno,0.0,331.4,1920,1080,0,0,1920,1080,640x640 letterbox,20.0,6628,908,
+P60,poss(37).mp4,YouTube,https://www.youtube.com/watch?v=Le6KNI9YsH0,0.0,299.083,1878,1080,0,0,1878,1080,640x640 letterbox,12.0,3590,399,
+P61,poss(38).mp4,YouTube,https://www.youtube.com/watch?v=tuFRJR1A2GI,0.0,300.383,622,360,0,0,622,360,640x640 letterbox,23.976,7202,594,
+P62,poss(40).mp4,YouTube,https://www.youtube.com/watch?v=3f75rIppRPA,10.84,294.28,640,360,0,0,640,360,640x640 letterbox,25.0,7085,177,
+P63,poss(41).mp4,YouTube,https://www.youtube.com/watch?v=YFK70JFgLW4,10.56,392.12,480,270,0,0,480,270,640x640 letterbox,25.0,9538,3,
+P64,poss(42).mp4,YouTube,https://www.youtube.com/watch?v=YDCwJhCoN9c,12.2,141.68,1920,1080,0,0,1920,1080,640x640 letterbox,25.0,3236,0,
+P65,poss(43).mp4,YouTube,https://www.youtube.com/watch?v=BJ9ng9L1CA0,0.0,315.515,2560,1440,0,0,2560,1440,640x640 letterbox,29.97,9456,0,
+P66,poss(46).mp4,YouTube,https://www.youtube.com/watch?v=cBcw-FwwiQ4,28.533,144.5,640,480,0,0,640,480,640x640 letterbox,30.0,3478,278,
+P67,poss(47).mp4,YouTube,https://www.youtube.com/watch?v=oA5r04AvgVs,31.88,859.88,480,270,0,0,480,270,640x640 letterbox,25.0,20703,327,
+P68,poss(49)_crop1.mp4,YouTube,https://www.youtube.com/watch?v=k0U_LuG9K8Q,17.367,96.033,1920,1080,0,290,954,512,640x640 letterbox,30.0,2360,166,
+P69,poss(49)_crop2.mp4,YouTube,https://www.youtube.com/watch?v=k0U_LuG9K8Q,17.367,96.033,1920,1080,972,292,944,510,640x640 letterbox,30.0,2360,174,
