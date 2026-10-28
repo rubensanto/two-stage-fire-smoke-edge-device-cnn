@@ -1,0 +1,70 @@
+id,file,set,source_file,origin
+1,old_01_firesense.mp4,old,firesense.avi,FIRESENSE
+2,old_02_firesense_1.mp4,old,firesense (1).avi,FIRESENSE
+3,old_03_firesense_2.mp4,old,firesense (2).avi,FIRESENSE
+4,old_04_firesense_3.mp4,old,firesense (3).avi,FIRESENSE
+5,old_05_firesense_4.mp4,old,firesense (4).avi,FIRESENSE
+6,old_06_firesense_5.mp4,old,firesense (5).avi,FIRESENSE
+7,old_07_firesense_6.mp4,old,firesense (6).avi,FIRESENSE
+8,old_08_firesense_7.mp4,old,firesense (7).avi,FIRESENSE
+9,old_09_kmu_1.mp4,old,kmu (1).avi,KMU
+10,old_10_kmu_2.mp4,old,kmu (2).avi,KMU
+11,old_11_youtube.mp4,old,youtube.mp4,YouTube
+12,old_12_youtube_2.mp4,old,youtube (2).mp4,YouTube
+13,new_firesense_fire_negsVideo1.858.mp4,new,firesense_fire_negsVideo1.858.avi,FIRESENSE (Zenodo 836749)
+14,new_firesense_fire_negsVideo12.1074.mp4,new,firesense_fire_negsVideo12.1074.avi,FIRESENSE (Zenodo 836749)
+15,new_firesense_fire_negsVideo15.1078.mp4,new,firesense_fire_negsVideo15.1078.avi,FIRESENSE (Zenodo 836749)
+16,new_firesense_fire_negsVideo16.1077.mp4,new,firesense_fire_negsVideo16.1077.avi,FIRESENSE (Zenodo 836749)
+17,new_firesense_fire_negsVideo4.861.mp4,new,firesense_fire_negsVideo4.861.avi,FIRESENSE (Zenodo 836749)
+18,new_firesense_fire_negsVideo5.862.mp4,new,firesense_fire_negsVideo5.862.avi,FIRESENSE (Zenodo 836749)
+19,new_firesense_fire_negsVideo6.863.mp4,new,firesense_fire_negsVideo6.863.avi,FIRESENSE (Zenodo 836749)
+20,new_firesense_fire_negsVideo7.864.mp4,new,firesense_fire_negsVideo7.864.avi,FIRESENSE (Zenodo 836749)
+21,new_firesense_fire_negsVideo8.865.mp4,new,firesense_fire_negsVideo8.865.avi,FIRESENSE (Zenodo 836749)
+22,new_firesense_fire_negsVideo9.866.mp4,new,firesense_fire_negsVideo9.866.avi,FIRESENSE (Zenodo 836749)
+23,new_firesense_smoke_testneg01.807.mp4,new,firesense_smoke_testneg01.807.avi,FIRESENSE (Zenodo 836749)
+24,new_firesense_smoke_testneg04.810.mp4,new,firesense_smoke_testneg04.810.avi,FIRESENSE (Zenodo 836749)
+25,new_firesense_smoke_testneg05.811.mp4,new,firesense_smoke_testneg05.811.avi,FIRESENSE (Zenodo 836749)
+26,new_firesense_smoke_testneg06.812.mp4,new,firesense_smoke_testneg06.812.avi,FIRESENSE (Zenodo 836749)
+27,new_firesense_smoke_testneg07.813.mp4,new,firesense_smoke_testneg07.813.avi,FIRESENSE (Zenodo 836749)
+28,new_firesense_smoke_testneg08.814.mp4,new,firesense_smoke_testneg08.814.avi,FIRESENSE (Zenodo 836749)
+29,new_firesense_smoke_testneg09.815.mp4,new,firesense_smoke_testneg09.815.avi,FIRESENSE (Zenodo 836749)
+30,new_pexels_clouds_city_evening_14563249.mp4,new,pexels_clouds_city_evening_14563249.mp4,Pexels
+31,new_pexels_clouds_over_traffic_13575058.mp4,new,pexels_clouds_over_traffic_13575058.mp4,Pexels
+32,new_pexels_dust_car_road_17968333.mp4,new,pexels_dust_car_road_17968333.mp4,Pexels
+33,new_pexels_dust_road_27858850.mp4,new,pexels_dust_road_27858850.mp4,Pexels
+34,new_pexels_dust_vintage_car_29871047.mp4,new,pexels_dust_vintage_car_29871047.mp4,Pexels
+35,new_pexels_flag_waving_7033078.mp4,new,pexels_flag_waving_7033078.mp4,Pexels
+36,new_pexels_fog_night_avenue_15722036.mp4,new,pexels_fog_night_avenue_15722036.mp4,Pexels
+37,new_pexels_fog_night_cars_31059898.mp4,new,pexels_fog_night_cars_31059898.mp4,Pexels
+38,new_pexels_fog_night_crosswalk_29615714.mp4,new,pexels_fog_night_crosswalk_29615714.mp4,Pexels
+39,new_pexels_fog_night_gas_station_34964490.mp4,new,pexels_fog_night_gas_station_34964490.mp4,Pexels
+40,new_pexels_fog_night_headlights_30339954.mp4,new,pexels_fog_night_headlights_30339954.mp4,Pexels
+41,new_pexels_fog_night_traffic2_29615708.mp4,new,pexels_fog_night_traffic2_29615708.mp4,Pexels
+42,new_pexels_fog_night_traffic3_11789203.mp4,new,pexels_fog_night_traffic3_11789203.mp4,Pexels
+43,new_pexels_fog_night_traffic_36637655.mp4,new,pexels_fog_night_traffic_36637655.mp4,Pexels
+44,new_pexels_golden_sun_on_leaves_1404893.mp4,new,pexels_golden_sun_on_leaves_1404893.mp4,Pexels
+45,new_pexels_misty_sunrise_countryside_28647804.mp4,new,pexels_misty_sunrise_countryside_28647804.mp4,Pexels
+46,new_pexels_night_traffic_jam_39613068.mp4,new,pexels_night_traffic_jam_39613068.mp4,Pexels
+47,new_pexels_night_traffic_lights_berlin_34665162.mp4,new,pexels_night_traffic_lights_berlin_34665162.mp4,Pexels
+48,new_pexels_night_traffic_lights_jakarta_31989388.mp4,new,pexels_night_traffic_lights_jakarta_31989388.mp4,Pexels
+49,new_pexels_night_traffic_timelapse_34716032.mp4,new,pexels_night_traffic_timelapse_34716032.mp4,Pexels
+50,new_pexels_orange_leaves_windy_2962395.mp4,new,pexels_orange_leaves_windy_2962395.mp4,Pexels
+51,new_pexels_rainy_traffic_light_16420406.mp4,new,pexels_rainy_traffic_light_16420406.mp4,Pexels
+52,new_pexels_red_flag_belarus_5068762.mp4,new,pexels_red_flag_belarus_5068762.mp4,Pexels
+53,new_pexels_red_flag_cloudy_19595469.mp4,new,pexels_red_flag_cloudy_19595469.mp4,Pexels
+54,new_pexels_red_flags_waving_34354781.mp4,new,pexels_red_flags_waving_34354781.mp4,Pexels
+55,new_pexels_steam_cooling_tower_37544749.mp4,new,pexels_steam_cooling_tower_37544749.mp4,Pexels
+56,new_pexels_steam_fumarole_9354647.mp4,new,pexels_steam_fumarole_9354647.mp4,Pexels
+57,new_pexels_steam_geothermal_well_16562429.mp4,new,pexels_steam_geothermal_well_16562429.mp4,Pexels
+58,new_pexels_steam_ground_9354607.mp4,new,pexels_steam_ground_9354607.mp4,Pexels
+59,new_pexels_steam_industrial_smokestacks_28827686.mp4,new,pexels_steam_industrial_smokestacks_28827686.mp4,Pexels
+60,new_pexels_steam_power_plant2_19950813.mp4,new,pexels_steam_power_plant2_19950813.mp4,Pexels
+61,new_pexels_steam_power_plant_30283912.mp4,new,pexels_steam_power_plant_30283912.mp4,Pexels
+62,new_pexels_steam_smokestacks_dusk_30598869.mp4,new,pexels_steam_smokestacks_dusk_30598869.mp4,Pexels
+63,new_pexels_sunlight_fog_forest_10978948.mp4,new,pexels_sunlight_fog_forest_10978948.mp4,Pexels
+64,new_pexels_sunrise_foggy_field_27517819.mp4,new,pexels_sunrise_foggy_field_27517819.mp4,Pexels
+65,new_pexels_sunset_busy_street_13914874.mp4,new,pexels_sunset_busy_street_13914874.mp4,Pexels
+66,new_pexels_sunset_city_clouds_19314111.mp4,new,pexels_sunset_city_clouds_19314111.mp4,Pexels
+67,new_pexels_sunset_city_timelapse_11127621.mp4,new,pexels_sunset_city_timelapse_11127621.mp4,Pexels
+68,new_pexels_sunset_sky_timelapse_10161903.mp4,new,pexels_sunset_sky_timelapse_10161903.mp4,Pexels
+69,new_pexels_sunset_timelapse_3642642.mp4,new,pexels_sunset_timelapse_3642642.mp4,Pexels

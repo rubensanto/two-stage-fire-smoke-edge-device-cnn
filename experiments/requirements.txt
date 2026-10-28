@@ -1,0 +1,10 @@
+# Raspberry Pi 5 (Python 3.10+)
+ultralytics          # YOLO inference (ONNX models through onnxruntime, FLAME .pt)
+onnxruntime
+opencv-python
+numpy
+pandas
+openpyxl
+psutil
+scipy                # Venancio et al.: area variation tracker
+torch                # OnFire (ShuffleNetV2)

@@ -1,0 +1,80 @@
+NOTA METODOLOGICA - PORQUE DOIS REGIMES DE TESTE (OFFLINE + EDGE)
+=================================================================
+Pipeline avaliado: FLAME (Gragnaniello, Greco, Sansone, Vento,
+Neural Computing and Applications, 2025) - Familia 4
+(Heuristic-to-Learned: detetor + analise de movimento baseada em modelo).
+
+Estagios: (I) YOLOv8s (flame+smoke, Tc); (II) subtracao de fundo GMM
+(h=500, Tm=16, Ng=3, sigma0=15, T_fg=0.2); (III) tracking por centroides
+com FSM New/Occluded/Confirmed/Rejected (tC=1s, tO=0.1s).
+
+-----------------------------------------------------------------
+1. REGIME OFFLINE (results_offline.xlsx) - REPLICACAO
+-----------------------------------------------------------------
+- Processa TODOS os frames do video, sequencialmente (sem seek).
+- dt do FSM = 1/fps (tempo inter-frame do video).
+- E o regime em que os autores calibraram tC, tO e Tc (sistema a
+  acompanhar o frame-rate da camara, >=10-25 fps).
+- Deterministico: a sequencia de frames e fixa, portanto 1 run basta.
+- OBJETIVO: validar a implementacao. Se as latencias ficarem na casa
+  dos segundos e forem estaveis, o codigo reproduz o comportamento
+  publicado. Se o offline falhar, o defeito e da implementacao.
+
+-----------------------------------------------------------------
+2. REGIME EDGE (results.xlsx) - DEPLOY REAL NO RPi5
+-----------------------------------------------------------------
+- Relogio virtual: o tempo avanca com o tempo de inferencia; so os
+  frames que "chegam" dado o throughput do dispositivo sao analisados
+  (~2-5 fps com YOLOv8s@640 no RPi5).
+- dt do FSM = tempo real entre frames analisados (yolo_time).
+- E o regime comparavel com as outras 3 familias da matriz
+  (YOLOv8n->YOLOv8L, Venancio, Bahhar), que usam o mesmo protocolo.
+- OBJETIVO: medir o custo real de deploy e comparar familias em
+  condicoes identicas.
+
+-----------------------------------------------------------------
+3. PORQUE NAO APENAS O REGIME EDGE?
+-----------------------------------------------------------------
+a) No edge confundem-se duas causas distintas:
+   (i) erros de implementacao;
+   (ii) desajuste de regime (parametros calibrados para outro throughput).
+   Sem o offline nao e possivel separa-las: um NO ALARM no edge pode
+   ser um bug OU ser o tO=0.1s demasiado curto para o FPS efetivo
+   (com dt~0.5s, UMA unica amostra falhada ja excede tO e rejeita o
+   track, forcando o recomeco da confirmacao).
+b) O Tc=0.4 foi calibrado pelos autores no validation set deles, com o
+   YOLOv8s treinado no LFDN (>4000 negativos dificeis). O nosso detetor
+   tem outra curva de confianca; o grid search de Tc (tc_grid_search.csv)
+   e o regime offline isolam esse efeito antes de interpretar o edge.
+c) O edge e nao-deterministico (tempo de inferencia varia com carga e
+   temperatura; seek H.264 nao e frame-exact). O offline da uma
+   referencia estavel e auditavel para revisores.
+
+-----------------------------------------------------------------
+4. PORQUE NAO APENAS O REGIME OFFLINE?
+-----------------------------------------------------------------
+- Nao reflete o deploy: num dispositivo real o sistema nao acompanha
+  todos os frames; a latencia percebida depende do throughput.
+- O proprio paper reconhece isto: a metrica FDS penaliza metodos
+  abaixo de 10 fps. Avaliar so offline esconderia a limitacao de
+  deploy que nos queremos quantificar.
+
+-----------------------------------------------------------------
+5. COMO LER OS RESULTADOS
+-----------------------------------------------------------------
+- results_offline.xlsx: latencias em tempo de video, estaveis.
+  Valores de poucos segundos = implementacao fiel ao paper.
+- results.xlsx: latencias maiores e com variancia (reportar media±std).
+- A DIFERENCA entre os dois regimes e o finding cientifico: quantifica
+  a degradacao de metodos de confirmacao temporal quando o throughput
+  do dispositivo fica muito abaixo do frame-rate de calibracao.
+- tc_grid_search.csv: P/R/F1/delay por Tc (0.10-0.90) medidos no Stage I
+  com o NOSSO detetor; usar o Tc recomendado para interpretar configs.
+
+Ficheiros gerados:
+  - tc_grid_search.csv            (grid search do Tc, Stage I)
+  - results_offline.xlsx          (regime offline, subconjunto, 1 run)
+  - results.xlsx                  (regime edge, todos os videos, 6 runs)
+  - partial_results_offline.xlsx  (intermedio offline)
+  - partial_results_edge.xlsx     (intermedio edge)
+  - system_log.csv                (temperatura/memoria/CPU/GPU do RPi5)

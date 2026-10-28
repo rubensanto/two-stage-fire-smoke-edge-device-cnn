@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+analysis/output/
+runs/
+data/videos/
+*.tmp
